@@ -1,0 +1,9 @@
+flavor= nova에서 관리
+image => glance 요청
+/var/lib/nova/instance/ID
+ex) image = 8G 
+   base /var/lib/nova/inistance _base 파일이 생성 
+   qcow2에서 row 파일로 저장 
+   -> disk (1G) 파일 
+   8G이상급 flavor 가 필요  
+ 
